@@ -1,0 +1,21 @@
+# This is a basic workflow to help you get started with Actions
+
+name: CI
+
+# Controls when the action will run. Triggers the workflow on push or pull request 
+# events but only for the master branch
+on:
+  push:
+    branches: [ master,feature*,fix*,release* ]
+  pull_request:
+    branches: [ master,release* ]
+
+jobs:
+  pipenv:
+    name: 'Setup with Pipenv'
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@master
+    - uses: actions/setup-python@v1
+    - uses: dschep/install-pipenv-action@v1
+    - run: pipenv run PSG_Widget_COVID19_Distance.py
