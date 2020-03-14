@@ -1,0 +1,44 @@
+{
+    "_meta": {
+        "hash": {
+            "sha256": "256ff74859c4a87d62fb496aff989783ddd270b161e5b285fa0238d6650123a9"
+        },
+        "pipfile-spec": 6,
+        "requires": {
+            "python_version": "3.7"
+        },
+        "sources": [
+            {
+                "name": "pypi",
+                "url": "https://pypi.org/simple",
+                "verify_ssl": true
+            }
+        ]
+    },
+    "default": {
+        "geographiclib": {
+            "hashes": [
+                "sha256:12bd46ee7ec25b291ea139b17aa991e7ef373e21abd053949b75c0e9ca55c632",
+                "sha256:51cfa698e7183792bce27d8fb63ac8e83689cd8170a730bf35e1a5c5bf8849b9"
+            ],
+            "version": "==1.50"
+        },
+        "geopy": {
+            "hashes": [
+                "sha256:5de6fed0ee982e43a8e4243410477567cfccac22f8530edffc422761adf4e612",
+                "sha256:dc02b43ca5202696907b6b4f72431c8df455c812889dbb4e1240a672857f3adc"
+            ],
+            "index": "pypi",
+            "version": "==1.21.0"
+        },
+        "pysimplegui": {
+            "hashes": [
+                "sha256:b20460293069a39ac70091ee3eb69b484f49aadee4190d2608e8eedb9ca90e24",
+                "sha256:e3c34694d28001d8cf7954066496809d8f892f542386fc9f83ddf5f57a7d8664"
+            ],
+            "index": "pypi",
+            "version": "==4.16.0"
+        }
+    },
+    "develop": {}
+}
